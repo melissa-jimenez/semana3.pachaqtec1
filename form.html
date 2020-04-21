@@ -1,4 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DATOS PERSONALES</h1>
+    <form action="index.html">
+        <div>
+            <label for="Nombres">Nombre</label>
+            <input id="Nombres" type="text" placeholder="Nombre" required pattern="[A-Za-z]+">
+        </div>
 
+        <div>
+            <label for="Apellidos">Apellido</label>
+            <input id="Apellidos" type="text" placeholder="Apellido" required pattern="[A-Za-z]+">
+        </div>
+
+        <div
+            <label for="Edad">Edad</label>
+            <input id="Edad" type="number" placeholder="Edad" min="18" max="80" required>
+        </div>
+
+        <div>
+            <p>SEXO</p>        
+            <label for="">Femenino
+                <input type="radio" name="sex" checked>
+            </label>
+            <label for="">Masculino
+                <input type="radio" name="sex" checked>
+            </label>
+        </div>
+
+        <div
+            <label for="Dni">Dni</label>
+            <input id="Dni" type="text" placeholder="Dni" min="8" required pattern="[A-Za-z0-9]+">
+        </div>
+
+        <div
             <label for="Correo">Correo</label>
             <input id="Correo" type="email" placeholder="email" required>
         </div>
